@@ -13,5 +13,7 @@ I have implemented in this directory are:
 * Height-balanced tree
 * String hashset
 
-Inside this directory is also a sorting directory where I implemented binary heapsort, quicksort, and treesort. Most of the tests inside this directory were written
-by the CSSE professors at Rose-Hulman. These programs were written for CSSE 230: Data Structures and Algorithm Analysis.
+Inside this directory is also a sorting directory where I implemented binary heapsort, quicksort, and treesort. 
+
+Most of the tests inside this directory were written by the CSSE professors at Rose-Hulman. In some of these projects, I worked with a partner; I give credit to any 
+students and professors who helped me in the headers of each file. These programs were written for CSSE 230: Data Structures and Algorithm Analysis.
