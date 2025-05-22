@@ -1,5 +1,5 @@
 # personal-projects: Marlon Mendez-Yanez
-This repository showcases a collection of projects that I have developed and believe best represent my programming skills and growth.
+This repository presents a curated collection of projects that I have developed, each reflecting my programming abilities and professional growth. Additional information about myself and projects can also be found on my [personal website](https://rhit-mendezm.github.io/).
 
 ## **rosie-runner** 
 Created as a web programming course project, [Rosie Runner](https://github.com/rhit-csse280/final-project-s25_107) provides entertainment value for users in the form of an endless horizontal scrolling runner. It features a leaderboard, signing up, logging in, and deleting an account. The game was developed in javascript with the Kaplay.js library; the frontend was developed with the Angular framework, and the backend was developed in Python with Flask. This project was developed in three weeks with one partner for CSSE 280: Intro to Web Programming.
