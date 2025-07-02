@@ -4,6 +4,11 @@ This repository presents a curated collection of projects that I have developed,
 ## **rosie-runner** 
 Created as a web programming course project, [Rosie Runner](https://github.com/rhit-csse280/final-project-s25_107) provides entertainment value for users in the form of an endless horizontal scrolling runner. It features a leaderboard, signing up, logging in, and deleting an account. The game was developed in javascript with the Kaplay.js library; the frontend was developed with the Angular framework, and the backend was developed in Python with Flask. This project was developed in three weeks with one partner for CSSE 280: Intro to Web Programming.
 
+## **kebab2snake**
+Developed in shell in Summer of 2025, this directory contains a tool that converts directory and file names in kebab case (this-is-kebab-case) to snake case (this_is_snake_case).
+The tool supports a --silent and --max-level flag; --silent suppresses output, and --max-level allows the user to set the level of recursion when renaming directories. Moreover,
+this directory contains an extensive test suite.
+
 ## **RISC-V-assembler**
 Developed in python in Winter of 2024-25, this directory contains a RISC-V assembler that assembles assembly code into machine code.
 The assembler supports most instructions, recognizes registers by its formal and informal name, and supports translating a collection of pseudoinstructions.
