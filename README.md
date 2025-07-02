@@ -1,8 +1,14 @@
 # Personal Projects: Marlon Mendez-Yanez
-This repository presents a curated collection of projects that I have developed, each reflecting my programming abilities and professional growth. Additional information about myself and projects can also be found on my [personal website](https://rhit-mendezm.github.io/). You can view my [résumé](./Marlon%20O.%20Mendez-Yanez%20-%20Software%20Engineering%20Resume.pdf) for a detailed overview of my experience and skills. Additionaly, You can [connect with me on LinkedIn](https://www.linkedin.com/in/marlon-mendez-yanez) to learn more about my professional background.
+This repository presents a curated collection of projects that I have developed, each reflecting my programming abilities and professional growth. Additional information
+about myself and projects can also be found on my [personal website](https://rhit-mendezm.github.io/). You can view my 
+[résumé](./Marlon%20O.%20Mendez-Yanez%20-%20Software%20Engineering%20Resume.pdf) for a detailed overview of my experience and skills. Additionaly, You can 
+[connect with me on LinkedIn](https://www.linkedin.com/in/marlon-mendez-yanez) to learn more about my professional background.
 
 ## **rosie-runner** 
-Created as a web programming course project, [Rosie Runner](https://github.com/rhit-csse280/final-project-s25_107) provides entertainment value for users in the form of an endless horizontal scrolling runner. It features a leaderboard, signing up, logging in, and deleting an account. The game was developed in javascript with the Kaplay.js library; the frontend was developed with the Angular framework, and the backend was developed in Python with Flask. This project was developed in three weeks with one partner for CSSE 280: Intro to Web Programming.
+Created as a web programming course project, [Rosie Runner](https://github.com/rhit-csse280/final-project-s25_107) provides entertainment value for users in the form of an endless 
+horizontal scrolling runner. It features a leaderboard, signing up, logging in, and deleting an account. The game was developed in javascript with the Kaplay.js library; 
+the frontend was developed with the Angular framework, and the backend was developed in Python with Flask. This project was developed in three weeks with one partner for 
+CSSE 280: Intro to Web Programming.
 
 ## **kebab2snake**
 Developed in shell in Summer of 2025, this directory contains a tool that converts directory and file names in kebab case (this-is-kebab-case) to snake case (this_is_snake_case).
