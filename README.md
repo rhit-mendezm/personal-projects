@@ -1,8 +1,15 @@
 # Personal Projects: Marlon Mendez-Yanez
-This repository presents a curated collection of projects that I have developed, each reflecting my programming abilities and professional growth. Additional information
-about myself and projects can also be found on my [personal website](https://rhit-mendezm.github.io/). You can view my 
-[résumé](./Marlon%20O.%20Mendez-Yanez%20-%20Resume.pdf) for a detailed overview of my experience and skills. Additionaly, You can 
+
+This repository presents a curated collection of projects that I have developed, each reflecting my programming abilities and 
+professional growth. Additional information about myself and projects can also be found on my 
+[personal website](https://rhit-mendezm.github.io/). You can view my [résumé](./Marlon%20O.%20Mendez-Yanez%20-%20Resume.pdf) 
+for a detailed overview of my experience and skills. Additionaly, You can 
 [connect with me on LinkedIn](https://www.linkedin.com/in/marlon-mendez-yanez) to learn more about my professional background.
+
+## Repository Structure
+
+Each subdirectory contains a unique README file detailing its functionality and implementation. Below are brief summaries of 
+each project’s technologies and purpose. For more information, please navigate to the respective directory.
 
 ## **rosie_runner** 
 Created as a web programming course project, [Rosie Runner](https://github.com/rhit-csse280/final-project-s25_107) provides entertainment value for users in the form of an endless 
@@ -26,16 +33,3 @@ the backend and frontend of this database in 4 weeks. The project is meant to mi
 using the nodeJS library, and the program supports posting, commenting, liking, and blocking. As a team, we modeled our database with an entity-relationship diagram prior to developing the
 software.
 
-## **data_structures** 
-Developed in java in Winter of 2023-24, this directory contains several projects of my implementation of data structures. All the data structures
-I have implemented in this directory are:
-* Binary heap
-* Binary search tree
-* Graph
-* Height-balanced tree
-* String hashset
-
-Inside this directory is also a sorting directory where I implemented binary heapsort, quicksort, and treesort. 
-
-Most of the tests inside this directory were written by the CSSE professors at Rose-Hulman. In some of these projects, I worked with a partner; I give credit to any 
-students and professors who helped me in the headers of each file. These programs were written for CSSE 230: Data Structures and Algorithm Analysis.
