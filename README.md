@@ -6,12 +6,7 @@ professional growth. Additional information about myself and projects can also b
 for a detailed overview of my experience and skills. Additionaly, You can 
 [connect with me on LinkedIn](https://www.linkedin.com/in/marlon-mendez-yanez) to learn more about my professional background.
 
-## Repository Structure
-
-Each subdirectory contains a unique README file detailing its functionality and implementation. Below are brief summaries of 
-each project’s technologies and purpose. For more information, please navigate to the respective directory.
-
-### Rosie Runner (Spring 2025)
+## Rosie Runner (Spring 2025)
 
 * **Purpose**: Endless horizontal scrolling runner game with leaderboard and user account management.
 * **Technologies**: JavaScript, Kaplay.js library, Angular for frontend, and Python with Flask for backend.
