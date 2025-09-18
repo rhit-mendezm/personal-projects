@@ -6,6 +6,12 @@ professional growth. Additional information about myself and projects can also b
 for a detailed overview of my experience and skills. Additionaly, You can 
 [connect with me on LinkedIn](https://www.linkedin.com/in/marlon-mendez-yanez) to learn more about my professional background.
 
+Each project is summarized below with the following details:
+* **Purpose**: What the project does and its goals.
+* **Technologies**: Programming languages, frameworks, and libraries used.
+* **Notes**: Additional context such as development timeline, collaborators, or course information.
+* **Link**: GitHub repository (if project size is large).
+
 ## Rosie Runner (Spring 2025)
 
 * **Purpose**: Endless horizontal scrolling runner game with leaderboard and user account management.
