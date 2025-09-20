@@ -1,23 +1,31 @@
 # Playwright Test
 
-Developed by Microsoft, [Playwright](https://playwright.dev/) is a testing framework focused on validating
-frontend displays. In this project, I used JavaScript to validate that **Exactly 100 articles are sorted 
-from newest to oldest** on [Hacker News](https://news.ycombinator.com/).
+A JavaScript testing program using [Microsoft’s Playwright framework](https://playwright.dev/docs/intro) to **validate that exactly 100
+articles are sorted from newest to oldest** on Hacker News. This project was developed as part of a hiring assessment for a quality 
+assurance organization.
 
-I wrote this program as part of a hiring assessment for a quality assurance organization. Since I am proud
-of my code, I am displaying it in my portfolio.
+## Features
 
-## Problem Description
+* Confirms articles are sorted from newest to oldest.
+* Uses Playwright to interact with the web page dynamically.
+* Resilient against changes to the website's DOM.
+* Outputs pass/fail message to the console.
+* Visually displays progress in a Chromium browser tab.
 
-Using the Playwright framework, compose a test that confirms that exactly 100 articles are sorted from newest
-to oldest. There are several solutions, and I approached this problem with the goal of making a readable test
-that is resilient against changes to the DOM of the website.
+## Installation and Testing
 
-## Test Execution
-1. Clone this project to your machine.
-2. In the directory where this project is cloned, install node modules by running `npm i`.
-3. Run the test with the command `node index.js`.
+Clone the repository and install dependencies:
 
-Note: The program will briefly open a Chromium tab to visually display progress. The console will also output a
-pass/fail message.
+```bash
+git clone git@github.com:rhit-mendezm/personal-projects.git
+
+cd hacker_news_article_sorter
+
+npm i
+
+node index.js
+```
+**Notes**: 
+* You may need to install npm (node package manager) on your machine first.
+* The `node_modules` dependency folder can be removed with `rm -rf node_modules/`
 
