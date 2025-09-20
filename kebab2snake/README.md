@@ -15,7 +15,9 @@ It supports recursive renaming with a configurable depth limit and optional sile
 Clone the repository and make the script executable:
 
 ```bash
-git clone https://github.com/your-username/kebab2snake.git
+git clone https://github.com/<your_username>/kebab2snake.git
 cd kebab2snake
 chmod +x rename_to_snake_case.sh
+
+./rename_to_snake_case.sh [--silent] [--max-depth N] <file_or_directory>
 
