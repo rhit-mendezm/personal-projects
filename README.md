@@ -24,7 +24,7 @@ handles loading additional pages dynamically.
 * **Technologies**: Shell scripting.
 * **Notes**: Includes an extensive test suite.
 
-## [Rosie Runner](https://github.com/rhit-csse280/final-project-s25_107) (Spring 2025)
+## [Rosie Runner](./rosie_runner) (Spring 2025)
 
 * **Purpose**: Endless horizontal scrolling runner game with leaderboard and user account management.
 * **Technologies**: JavaScript, Kaplay.js library, Angular for frontend, and Python with Flask for backend.
