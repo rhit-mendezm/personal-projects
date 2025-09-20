@@ -20,7 +20,7 @@ handles loading additional pages dynamically.
 
 ## [Kebab to Snake Case CLI Tool](./kebab_to_snake_case_cli_tool) (Summer 2025)
 
-* **Purpose**: Converts directory and file names from kebab-case to snake_case; supports recursion and silent mode.
+* **Purpose**: Converts directory and file names from `kebab-case` to `snake_case`; supports recursion and silent mode.
 * **Technologies**: Shell scripting.
 * **Notes**: Includes an extensive test suite.
 
