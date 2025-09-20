@@ -19,19 +19,19 @@ Each project is summarized below with the following details:
 * **Notes**: Web programming course project completed in 3 weeks with one partner.
 * **Link**: [Rosie Runner GitHub Repository](https://github.com/rhit-csse280/final-project-s25_107)
 
-## kebab2snake (Summer 2025)
+## [kebab2snake](./kebab2snake) (Summer 2025)
 
 * **Purpose**: Converts directory and file names from kebab-case to snake_case; supports recursion and silent mode.
 * **Technologies**: Shell scripting.
 * **Notes**: Includes an extensive test suite.
 
-## RISC-V Assembler (Winter 2024-25)
+## [RISC-V Assembler](./RISC_V_assembler) (Winter 2024-25)
 
 * **Purpose**: Assembles RISC-V assembly code into machine code; supports most instructions, register aliases, and pseudoinstructions.
 * **Technologies**: Python.
 * **Notes**: Tests were provided by CSSE faculty; developed for CSSE 232: Computer Architecture I.
 
-## Database Connectivity (Spring 2024)
+## [Database Connectivity](./database_connectivity) (Spring 2024)
 
 * **Purpose**: Mimics a social media app backend/frontend; supports posting, commenting, liking, and blocking.
 * **Technologies**: JavaScript, TypeScript, Node.js
