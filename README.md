@@ -16,7 +16,7 @@ Each project is summarized below with the following details:
 * **Purpose**: Endless horizontal scrolling runner game with leaderboard and user account management.
 * **Technologies**: JavaScript, Kaplay.js library, Angular for frontend, and Python with Flask for backend.
 * **Notes**: Web programming course project completed in 3 weeks with one partner.
-* **Link**: [Rosie Runner GitHub Repository]
+
 ## [kebab2snake](./kebab2snake) (Summer 2025)
 
 * **Purpose**: Converts directory and file names from kebab-case to snake_case; supports recursion and silent mode.
