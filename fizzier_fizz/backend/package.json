@@ -1,0 +1,22 @@
+{
+  "name": "course-project-s1g7-fizz",
+  "version": "1.0.0",
+  "description": "CSSE 333 Final Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js",
+    "import": "node import.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jose": "^5.2.4",
+    "mssql": "^10.0.2",
+    "papaparse": "^5.4.1"
+  }
+}
