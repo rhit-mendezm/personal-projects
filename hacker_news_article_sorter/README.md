@@ -27,5 +27,5 @@ node index.js
 ```
 **Notes**: 
 * You may need to install npm (node package manager) on your machine first.
-* The `node_modules` dependency folder can be removed with `rm -rf node_modules/`
+* The `node_modules` dependency folder can be removed with `rm -rf node_modules/`.
 
