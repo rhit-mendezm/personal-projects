@@ -1,4 +1,4 @@
-# Risc V Assembler
+# RISC-V Assembler
 
 ## Overview
 `assembler.py` is a Python-based assembler for a subset of the RISC-V instruction set. It supports core instructions, label handling, 
