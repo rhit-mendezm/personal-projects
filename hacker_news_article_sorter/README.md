@@ -28,4 +28,5 @@ node index.js
 **Notes**: 
 * You may need to install npm (node package manager) on your machine first.
 * The `node_modules` dependency folder can be removed with `rm -rf node_modules/`.
+* You may be prompted to run `npx install playwright`, so the chromium tab can open.
 
