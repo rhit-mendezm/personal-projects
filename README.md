@@ -11,7 +11,7 @@ Each project is summarized below with the following details:
 * **Technologies**: Programming languages, frameworks, and libraries used.
 * **Notes**: Additional context such as development timeline, collaborators, or course information.
 
-## [Hacker News Article Sorter](./playwright_test) (Fall 2025)
+## [Hacker News Article Sorter](./hacker_news_article_sorter) (Fall 2025)
 
 * **Purpose**: Verifies that the first 100 articles on Hacker News “Newest” page are sorted by timestamp; 
 handles loading additional pages dynamically.
