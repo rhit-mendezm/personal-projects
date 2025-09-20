@@ -30,7 +30,7 @@ handles loading additional pages dynamically.
 * **Technologies**: JavaScript, Kaplay.js library, Angular for frontend, and Python with Flask for backend.
 * **Notes**: Web programming course project completed in 3 weeks with one partner.
 
-## [RISC-V Assembler](./RISC_V_assembler) (Winter 2024-25)
+## [RISC-V Assembler](./'RISC V Assembler') (Winter 2024-25)
 
 * **Purpose**: Assembles RISC-V assembly code into machine code; supports most instructions, register aliases, and pseudoinstructions.
 * **Technologies**: Python.
