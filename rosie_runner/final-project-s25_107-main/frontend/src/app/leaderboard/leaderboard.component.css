@@ -1,0 +1,122 @@
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    width: fit-content;
+    padding: 0.5rem 1.5rem;
+    align-content: center;
+
+    font-size: var(--label-and-input-font-size);
+    border-radius: var(--button-border-radius);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    margin: 1rem;
+    font-family: sans-serif;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 0.2rem solid goldenrod;
+}
+
+th {
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: darkgray;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+tbody tr:hover {
+    background-color: yellow; 
+    transition: background-color 0.3s ease; 
+}
+
+td:first-child {
+    color: darkred;
+    font-weight: bold;
+}
+
+td:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+td:nth-child(3) {
+    font-size: 1.5rem;
+}
+
+td:nth-child(4) {
+    font-weight: normal;
+}
+
+td:nth-child(5) {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.current-user {
+    color: green;
+}
+
+@media (max-width: 580px) {
+    header {
+        font-size: 0.6rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    th, td {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 490px) {
+    header {
+        font-size: 0.4rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+    }
+
+    th, td {
+        padding: 0.5rem;
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 360px) {
+    header {
+        font-size: 0.3rem;
+    }
+
+    button {
+        font-size: 0.6rem;
+    }
+
+    th, td {
+        padding: 0.5rem;
+        font-size: 0.5rem;
+    }
+}

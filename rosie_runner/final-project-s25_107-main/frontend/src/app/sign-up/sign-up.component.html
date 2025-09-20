@@ -1,0 +1,95 @@
+<header>
+    <button [routerLink] = "['/']">Home</button>
+    <h1>Sign Up</h1>
+    <button [routerLink] = "['/log-in']">Go To Log In</button>
+</header>
+
+<body>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <label id="username-label" for="username">Username:</label>
+        <input id="username-input" name="username" type="text" formControlName="username" required>
+
+        <label id="email-label" for="email">Email:</label>
+        <input id="email-input" name="email" type="email" formControlName="email" required> 
+        
+        <label id="password-label" for="password">Password:</label>
+        <input id="password-input" name="password" type="password" formControlName="password" required>
+                             
+        <label id="confirm-password-label" for="confirm-password">Confirm Password:</label>
+        <input id="confirm-password-input" name="confirm-password" type="password" formControlName="confirmPassword" required>
+        
+        <label id="major-label">Major:</label>
+        <section class="major-selection">
+            <div>
+                <input id="computer-science" name="major" type="radio" value="Computer Science" formControlName="major" required>
+                <label for="computer-science">Computer Science</label>
+            </div>
+            
+            <div>
+                <input id="software-engineering" name="major" type="radio" value="Software Engineering" formControlName="major" required>
+                <label for="software-engineering">Software Engineering</label>
+            </div>    
+
+            <div>
+                <input id="mechanical-engineering" name="major" type="radio" value="Mechanical Engineering" formControlName="major" required>
+                <label for="mechanical-engineering">Mechanical Engineering</label>
+            </div>
+
+            <div>
+                <input id="computer-engineering" name="major" type="radio" value="Computer Engineering" formControlName="major" required>
+                <label for="computer-engineering">Computer Engineering</label>
+            </div>
+        </section>
+                
+        <button id="submit-button" type="submit">Sign Up</button>
+
+        <ul class="invalid-form-input">
+            @if (pressedSubmit) {
+                @if (form.get('username')?.errors?.['required']) {
+                    <li>Username is required.</li>
+                }
+                @if (form.get('username')?.errors?.['minlength']) {
+                    <li>Username must be at least {{ USERNAME_MINIMUM_LENGTH }} characters long.</li>
+                }
+                @if (form.get('username')?.errors?.['maxlength']) {
+                    <li>Username cannot be more than {{ USERNAME_MAXIMUM_LENGTH }} characters long.</li>
+                }
+                @if (form.get('username')?.errors?.['pattern']) {
+                    <li>Username can only contain letters and numbers.</li>
+                }
+                @if (form.get('username')?.errors?.['usernameTaken']) {
+                    <li>Username is already taken. Please choose a different one.</li>
+                }
+
+                @if (form.get('email')?.errors?.['required']) {
+                    <li>Email is required.</li>
+                }
+                @if (form.get('email')?.errors?.['email']) {
+                    <li>Email must be valid format.</li>
+                }
+                @if (form.get('email')?.errors?.['emailTaken']) {
+                    <li>Email is already taken. Please choose a different one.</li>
+                }                
+
+                @if (form.get('password')?.errors?.['required']) {
+                    <li>Password is required.</li>
+                }
+                @if (form.get('password')?.errors?.['minlength']) {
+                    <li>Password must be at least 8 characters long.</li>
+                }
+                @if (form.get('password')?.errors?.['pattern']) {
+                    <li>Password must contain at least one uppercase letter, one lowercase letter, and one number.</li>
+                }
+
+                @if (form.get('confirmPassword')?.errors?.['passwordsMismatch']) {
+                    <li>Passwords do not match.</li>
+                }
+
+                @if (form.get('major')?.errors?.['required']) {
+                    <li>Please select a major.</li>
+                }
+            }
+        </ul>
+    </form>
+</body>
+        

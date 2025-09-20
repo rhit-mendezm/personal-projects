@@ -1,0 +1,45 @@
+
+
+:root {
+    --label-and-input-font-size: 1.5rem;
+    --button-border-radius: 50px;
+
+    --rose-hulman-red: #800000;
+    --background-gray: rgb(127, 123, 123);
+}
+
+body {
+    background-color: var(--background-gray);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 4rem;
+    background-color: var(--rose-hulman-red);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+h1 {
+    margin: 0;
+    padding: 0.5rem 1.5rem;
+
+    background-color: white;
+    border-radius: var(--button-border-radius);
+
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: var(--button-border-radius);
+    border: none;
+}

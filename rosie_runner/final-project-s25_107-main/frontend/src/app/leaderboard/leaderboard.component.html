@@ -1,0 +1,30 @@
+<header>
+  <button [routerLink] = "['/']">Home</button>
+  <h1>Leaderboard</h1>
+  <button [routerLink] = "['/game']">Play Again</button>
+</header>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Username</th>
+        <th>Score</th>
+        <th>Major</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (entry of leaderboard | slice:0:5; track entry.username; let index = $index) {
+        <tr [ngClass]="{'current-user': entry.username == username}">
+          <td>{{ index + 1 }}</td>
+          <td>{{ entry.username }}</td>
+          <td>{{ entry.score }}</td>
+          <td>{{ entry.major }}</td>
+          <td>{{ entry.time  }}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</body>

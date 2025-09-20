@@ -1,0 +1,73 @@
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+label {
+    font-size: var(--label-and-input-font-size);
+    font-weight: bold;
+    text-align: right;
+}
+
+button {
+    width: fit-content;
+    padding: 0.5rem 1.5rem;
+
+    grid-area: submit;
+    align-content: center;
+    font-size: var(--label-and-input-font-size);
+
+    border-radius: var(--button-border-radius);
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    font-size: var(--label-and-input-font-size);
+    width: fit-content;
+}
+
+#password-label {
+    grid-area: password-label;
+}
+
+#password-input {
+    grid-area: password-input;
+}
+
+.invalid-form-input {
+    color: var(--rose-hulman-red);
+    font-size: var(--label-and-input-font-size);
+
+    grid-area: invalid-form-input;
+    list-style-position: inside;
+    display: inline-block;
+    text-align: center;
+}
+
+@media (max-width: 550px) {
+    header {
+        font-size: 0.6rem;
+    }
+
+    button, label, input[type="text"], input[type="email"], input[type="password"] {
+        font-size: 1rem;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"] {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    header {
+        font-size: 0.4rem;
+    }
+
+    button, label, input[type="text"], input[type="email"], input[type="password"] {
+        font-size: 0.8rem;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"] {
+        width: 100%;
+    }
+}

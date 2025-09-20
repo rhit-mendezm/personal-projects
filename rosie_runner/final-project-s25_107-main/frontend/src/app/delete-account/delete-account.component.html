@@ -1,0 +1,33 @@
+<header>
+    <button [routerLink] = "['/']">Go To Home</button>
+</header>
+
+
+<body>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <label id="username-or-email-label" for="username">Username/Email:</label>
+        <input id="username-or-email-input" name="username" type="text" formControlName="usernameOrEmail" placeholder = "Enter username or email" required>
+
+
+        <label id="password-label" for="password">Password:</label>
+        <input id="password-input" name="password" type="password" formControlName="password" required>
+
+        <button id="submit-button" type="submit">Delete Account</button>
+
+        <ul class="invalid-form-input">
+            @if (pressedSubmit) {
+                @if (form.get('username')?.errors?.['required']) {
+                    <li>Username or email is required.</li>
+                }
+
+                @if (form.get('password')?.errors?.['required']) {
+                    <li>Password is required.</li>
+                }
+
+                @if (form.errors?.['invalidCredentials']) {
+                    <li>Invalid login information.</li>
+                }
+            }
+        </ul>
+    </form>
+</body>
