@@ -18,7 +18,7 @@ handles loading additional pages dynamically.
 * **Technologies**: JavaScript and Playwright testing framework.
 * **Notes**: Uses Chromium browser in non-headless mode; implements row validation, timestamp comparison, and recursive page traversal.
 
-## [kebab2snake](./kebab2snake) (Summer 2025)
+## [Kebab to Snake Case CLI Converter](./kebab2snake) (Summer 2025)
 
 * **Purpose**: Converts directory and file names from kebab-case to snake_case; supports recursion and silent mode.
 * **Technologies**: Shell scripting.
@@ -36,7 +36,7 @@ handles loading additional pages dynamically.
 * **Technologies**: Python.
 * **Notes**: Tests were provided by CSSE faculty; developed for CSSE 232: Computer Architecture I.
 
-## [Database Connectivity](./database_connectivity) (Spring 2024)
+## [Fizzier Fizz](./database_connectivity) (Spring 2024)
 
 * **Purpose**: Mimics a social media app backend/frontend; supports posting, commenting, liking, and blocking.
 * **Technologies**: JavaScript, TypeScript, Node.js
