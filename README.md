@@ -3,7 +3,7 @@
 This repository presents a curated collection of projects that I have developed, each reflecting my programming abilities and 
 professional growth. Additional information about myself and projects can also be found on my 
 [personal website](https://rhit-mendezm.github.io/). You can view my [résumé](./Marlon%20O.%20Mendez-Yanez%20-%20Resume.pdf) 
-for a detailed overview of my experience and skills. Additionally, You can 
+for a detailed overview of my experience and skills. Additionally, you can 
 [connect with me on LinkedIn](https://www.linkedin.com/in/marlon-mendez-yanez) to learn more about my professional background.
 
 Each project is summarized below with the following details:
