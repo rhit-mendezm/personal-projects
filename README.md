@@ -18,7 +18,7 @@ handles loading additional pages dynamically.
 * **Technologies**: JavaScript and Playwright testing framework.
 * **Notes**: Uses Chromium browser in non-headless mode; implements row validation, timestamp comparison, and recursive page traversal.
 
-## [Kebab to Snake Case CLI Converter](./kebab2snake) (Summer 2025)
+## [Kebab to Snake Case CLI Tool](./kebab_to_snake_case_cli_tool) (Summer 2025)
 
 * **Purpose**: Converts directory and file names from kebab-case to snake_case; supports recursion and silent mode.
 * **Technologies**: Shell scripting.
