@@ -27,6 +27,7 @@ node index.js
 ```
 **Notes**: 
 * You may need to install npm (node package manager) on your machine first.
-* The `node_modules` dependency folder can be removed with `rm -rf node_modules/`.
 * You may be prompted to run `npx install playwright`, so the chromium tab can open.
+* If running the test in a linux environment, you will need to make `node_modules/.bin/playwright` executable.
+* The `node_modules` dependency folder can be removed with `rm -rf node_modules/`.
 
