@@ -1,6 +1,6 @@
 # Personal Projects: Marlon Mendez-Yanez
 
-This repository presents a curated collection of projects that I have developed, each reflecting my programming abilities and 
+This repository presents a curated collection of projects that I have developed - each reflecting my programming abilities and 
 professional growth. Additional information about myself and projects can also be found on my 
 [personal website](https://rhit-mendezm.github.io/). You can view my [résumé](./Marlon%20O.%20Mendez-Yanez%20-%20Resume.pdf) 
 for a detailed overview of my experience and skills. Additionally, you can 
